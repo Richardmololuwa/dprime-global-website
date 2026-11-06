@@ -550,3 +550,70 @@
   opacity: 0.65;
   cursor: not-allowed;
 }
+
+
+.contact-location-section {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 45px;
+  align-items: center;
+}
+
+.contact-location-info span {
+  color: #0A9997;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 13px;
+}
+
+.contact-location-info h2 {
+  color: #0D2D60;
+  font-size: 32px;
+  margin: 15px 0;
+}
+
+.contact-location-info p {
+  color: #64748b;
+  line-height: 1.8;
+  margin-bottom: 25px;
+}
+
+.location-directions {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 13px 22px;
+  background: #0D2D60;
+  color: #FFFFFF;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.location-directions:hover {
+  background: #0A9997;
+}
+
+.contact-location-visual {
+  width: 100%;
+  height: 380px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(13, 45, 96, 0.12);
+}
+
+.contact-location-visual iframe {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .contact-location-section {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .contact-location-visual {
+    height: 300px;
+  }
+}

@@ -331,34 +331,42 @@ function Contact() {
       </section>
 
       {/* Location Section */}
-      <section className="contact-location-section">
-        <div>
-          <span>OUR LOCATION</span>
-          <h2>Based in Lagos, Nigeria</h2>
-          <p>
-            Connect with D' PRIME Global Ltd for equipment procurement,
-            supply and technical service enquiries.
-          </p>
-        </div>
+ 
+{/* Location Section */}
+<section className="contact-location-section">
+  <div className="contact-location-info">
+    <span>OUR LOCATION</span>
+    <h2>Based in Lagos, Nigeria</h2>
+    <p>
+      Connect with D' PRIME Global Ltd for equipment procurement,
+      supply and technical service enquiries.
+    </p>
 
-        <div className="contact-location-visual">
-          <MapPin size={38} />
-          <h3>Lagos State, Nigeria</h3>
-          <p>Contact our team for office and meeting arrangements.</p>
-        </div>
-      </section>
+    <a
+      href="https://maps.app.goo.gl/pq7DE13gV8z7AFzM6?g_st=ic"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="location-directions"
+    >
+      <MapPin size={18} />
+      Get Directions
+    </a>
+  </div>
 
-      {/* Bottom CTA */}
-      <section className="contact-bottom-cta">
-        <span>YOUR REQUIREMENTS. OUR SOLUTIONS.</span>
-        <h2>Ready to Discuss Your Next Project?</h2>
-        <p>
-          Let's work together to identify the right equipment and
-          solutions for your organisation.
-        </p>
+  <div className="contact-location-visual">
+    <iframe
+      title="D' PRIME Global Ltd Location"
+      src="https://maps.google.com/maps?q=https://maps.app.goo.gl/pq7DE13gV8z7AFzM6&t=&z=15&ie=UTF8&iwloc=&output=embed"
+      width="100%"
+      height="100%"
+      style={{ border: 0 }}
+      allowFullScreen
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+    />
+  </div>
+</section>
 
-        
-      </section>
     </main>
   );
 }
