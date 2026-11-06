@@ -28,7 +28,7 @@ const services = [
       "Supply solutions for institutional and industrial needs",
     ],
     image:
-      "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=1000&q=85",
+      "https://i.pinimg.com/736x/5e/f0/17/5ef017c27501fed8aacca4ae126984a2.jpg",
   },
   {
     number: "02",
@@ -73,7 +73,7 @@ const services = [
       "Equipment servicing support",
     ],
     image:
-      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1000&q=85",
+      "https://i.pinimg.com/736x/09/1d/68/091d68367a57ee96faf6de4616b33982.jpg",
   },
   {
     number: "05",
@@ -215,7 +215,7 @@ function Services() {
                 </ul>
 
                 <Link
-                  to="/request-quote"
+                  to="/contact"
                   className="services-enquiry-link"
                 >
                   Enquire About This Service <ArrowRight size={17} />

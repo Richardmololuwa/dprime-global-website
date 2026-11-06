@@ -159,7 +159,7 @@ function Products() {
                       </Link>
 
                       <Link
-                        to="/request-quote"
+                        to="/contact"
                         className="product-enquire"
                       >
                         Enquire

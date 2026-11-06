@@ -77,7 +77,7 @@ function ProductDetails() {
 
           <div className="product-details-actions">
             <Link
-              to="/request-quote"
+              to="/contact"
               state={{ product: product.name }}
               className="product-quote-btn"
             >

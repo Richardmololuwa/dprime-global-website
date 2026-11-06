@@ -21,7 +21,7 @@ const products = [
     description:
       "Laboratory equipment designed to separate sample components through controlled centrifugal rotation.",
     image:
-      "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=85",
+      "https://i.pinimg.com/736x/c3/f8/9e/c3f89ed04c798c7ac5000e2b40fc6694.jpg",
     features: [
       "Sample separation",
       "Laboratory applications",
@@ -35,7 +35,7 @@ const products = [
     description:
       "Medical monitoring equipment intended for observing and displaying patient vital signs.",
     image:
-      "https://images.unsplash.com/photo-1511174511562-5f7f18b874f8?auto=format&fit=crop&w=900&q=85",
+      "https://i.pinimg.com/736x/b6/96/87/b69687e15d128df502eadc8171efb82b.jpg",
     features: [
       "Vital signs monitoring",
       "Clinical applications",
@@ -49,7 +49,7 @@ const products = [
     description:
       "Hospital furniture designed to support patient care and clinical ward environments.",
     image:
-      "https://images.unsplash.com/photo-1504439904031-93ded9f93e4e?auto=format&fit=crop&w=900&q=85",
+      "https://i.pinimg.com/736x/13/80/b3/1380b3fda9106c7e323bef5d59940ecb.jpg",
     features: [
       "Patient care applications",
       "Hospital ward use",
@@ -63,7 +63,7 @@ const products = [
     description:
       "Industrial pumping equipment for water movement and fluid-handling applications.",
     image:
-      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=900&q=85",
+      "https://i.pinimg.com/736x/58/be/e9/58bee9be160f1fd93667c99d31d20a6a.jpg",
     features: [
       "Fluid transfer applications",
       "Industrial use",
@@ -77,7 +77,7 @@ const products = [
     description:
       "Power generation equipment for industrial and commercial applications.",
     image:
-      "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=900&q=85",
+      "https://i.pinimg.com/1200x/06/9d/b4/069db43a83fb72050a8f5ec32f9007e6.jpg",
     features: [
       "Power generation",
       "Commercial applications",

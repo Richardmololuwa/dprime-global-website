@@ -193,7 +193,7 @@ function Industries() {
                   </ul>
 
                   <Link
-                    to="/request-quote"
+                    to="/contact"
                     state={{ industry: industry.title }}
                     className="industry-link"
                   >
@@ -218,13 +218,12 @@ function Industries() {
 
         <div className="industry-approach-content">
           <span>OUR APPROACH</span>
-          <h2>Understanding Your Industry. Meeting Your Needs.</h2>
+          <h2>UNDERSTAND → SOURCE → DELIVER → SUPPORT</h2>
 
           <p>
-            We recognise that no two industries operate in exactly the
-            same way. Our approach begins with understanding your
-            requirements before identifying appropriate products and
-            procurement solutions.
+           We first understand the client's requirements, identify suitable products and suppliers, coordinate procurement and logistics, and ensure delivery according to the agreed requirements.
+This approach enables us to provide practical and responsive solutions for different procurement needs.
+
           </p>
 
           <div className="industry-approach-points">

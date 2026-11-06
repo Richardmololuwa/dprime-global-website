@@ -462,6 +462,31 @@ button {
   margin: 0;
 }
 
+.footer-socials {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 25px;
+}
+
+.footer-socials a {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.footer-socials a:hover {
+  background: #0A9997;
+  border-color: #0A9997;
+  transform: translateY(-3px);
+}
 @media (max-width: 900px) {
   .footer-container {
     grid-template-columns: repeat(2, 1fr);

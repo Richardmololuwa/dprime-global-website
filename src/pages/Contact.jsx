@@ -153,7 +153,8 @@ function Contact() {
             </div>
             <div>
               <h3>Phone</h3>
-              <a href="tel:+2347047002681">07047002681</a>
+              <a href="tel:+2347047002681">07047002681, 08032251861 </a>
+              
               <p>Speak with our team</p>
             </div>
           </div>
@@ -165,8 +166,10 @@ function Contact() {
             <div>
               <h3>Email</h3>
               <a href="mailto:dprimeglobal@gmail.com">
-                dprimeglobal@gmail.com
+                dprimeglobal@gmail.com, dairorotimi57@gmail.com
               </a>
+              
+             
               <p>Send us your enquiries</p>
             </div>
           </div>
@@ -178,7 +181,7 @@ function Contact() {
             <div>
               <h3>Location</h3>
               <p className="contact-location">
-                Lagos State, Nigeria
+                5 Unity Drive, Ibukun Estate, Alimosho, Lagos, Nigeria
               </p>
               <p>Serving businesses and institutions</p>
             </div>
@@ -197,16 +200,7 @@ function Contact() {
             </div>
           </div>
 
-          <div className="contact-side-note">
-            <h3>Need a quotation?</h3>
-            <p>
-              Tell us the equipment or services you require and we'll
-              help you take the next step.
-            </p>
-            <Link to="/request-quote">
-              Request a Quote <ArrowRight size={17} />
-            </Link>
-          </div>
+         
         </div>
 
         {/* Contact Form */}
@@ -363,9 +357,7 @@ function Contact() {
           solutions for your organisation.
         </p>
 
-        <Link to="/request-quote">
-          Request a Quote <ArrowRight size={18} />
-        </Link>
+        
       </section>
     </main>
   );

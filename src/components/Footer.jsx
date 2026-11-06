@@ -4,7 +4,8 @@ import {
   Phone,
   Mail,
   MapPin,
-  ArrowRight,
+  ArrowRight
+
 } from "lucide-react";
 import logo from "../assets/images/LogoRev.png";
 
@@ -28,6 +29,52 @@ function Footer() {
           <Link to="/about" className="footer-about-link">
             Learn More About Us <ArrowRight size={16} />
           </Link>
+
+          <div className="footer-socials">
+
+  {/* Instagram */}
+  <a
+    href="https://www.instagram.com/dprimeglobal1/"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Instagram"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="21"
+      height="21"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.8"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <rect x="3" y="3" width="18" height="18" rx="5" />
+      <circle cx="12" cy="12" r="4" />
+      <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" />
+    </svg>
+  </a>
+
+  {/* Facebook */}
+  <a
+    href="https://www.facebook.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Facebook"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="21"
+      height="21"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+    >
+      <path d="M13.5 21v-8h2.7l.4-3h-3.1V8.1c0-.9.3-1.5 1.6-1.5h1.7V3.9c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3V10H7.3v3h2.8v8h3.4z" />
+    </svg>
+  </a>
+
+</div>
         </div>
 
         {/* Quick Links */}
@@ -56,17 +103,17 @@ function Footer() {
 
           <a href="tel:+2347047002681">
             <Phone size={17} />
-            <span>07047002681</span>
+            <span>07047002681, 08032251861</span>
           </a>
 
           <a href="mailto:dprimeglobal@gmail.com">
             <Mail size={17} />
-            <span>dprimeglobal@gmail.com</span>
+            <span> dprimeglobal@gmail.com, dairorotimi57@gmail.com</span>
           </a>
 
           <div>
             <MapPin size={17} />
-            <span>Lagos State, Nigeria</span>
+            <span>5 Unity Drive, Ibukun Estate, Alimosho, Lagos, Nigeria</span>
           </div>
         </div>
 

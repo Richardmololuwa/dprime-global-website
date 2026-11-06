@@ -81,7 +81,7 @@ function Home() {
 
         <div className="home-container home-hero-content">
           <span className="home-eyebrow">
-            ENGINEERING • PROCUREMENT • TECHNICAL SOLUTIONS
+            QUALITY SUPPLY • RALIABLE DELIVERY • TRUSTED PARTNERSHIP
           </span>
 
           <h1>

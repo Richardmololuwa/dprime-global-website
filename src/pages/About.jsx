@@ -17,19 +17,19 @@ const values = [
     icon: <ShieldCheck />,
     title: "Quality",
     description:
-      "We prioritise quality in the equipment and solutions we source and supply, with attention to our clients' requirements.",
+      "We are committed to supplying products that meet appropriate specifications and customer requirements.",
   },
   {
     icon: <Handshake />,
     title: "Integrity",
     description:
-      "We value transparency, honesty and responsible business relationships in every engagement.",
+      "We conduct our business with honesty, transparency and accountability.",
   },
   {
     icon: <Award />,
     title: "Professionalism",
     description:
-      "We approach procurement and technical services with care, responsibility and a commitment to professional standards.",
+      "We listen to our customers and work to provide solutions that address their specific needs.",
   },
   {
     icon: <Users />,
@@ -37,15 +37,27 @@ const values = [
     description:
       "We listen to our clients and work to understand their operational needs before recommending suitable solutions.",
   },
+  {
+    icon: <ShieldCheck />,
+    title: "Reliability",
+    description:
+      "We strive to deliver the right products at the agreed time and according to agreed specifications.",
+  },
+  {
+    icon: <Award />,
+    title: "Professionalism",
+    description:
+      "We listen to our customers and work to provide solutions that address their specific needs.",
+  },
 ];
 
 const strengths = [
-  "Broad range of engineering and technical equipment",
-  "Procurement and supply solutions",
-  "Installation and maintenance support",
-  "Importation and distribution services",
-  "Solutions for multiple professional industries",
-  "A customer-focused approach to service delivery",
+  "Quality Products - We focus on supplying products that meet our clients' requirements.",
+  "Reliable Delivery - We understand the importance of timely delivery, particularly for institutional and healthcare clients.",
+  "Customer-Focused Service - We work closely with clients to understand their individual procurement needs.",
+  "Competitive Solutions - We seek appropriate sourcing options that provide value for money.",
+  "Professional Integrity - We conduct our business with transparency, accountability and respect for our clients and business partners.",
+ 
 ];
 
 function About() {
@@ -78,7 +90,7 @@ function About() {
 
           <div className="about-overview-image">
             <img
-              src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1000&q=85"
+              src="https://i.pinimg.com/1200x/88/c8/c3/88c8c326acfdb9e5e4861dafb68f4622.jpg"
               alt="Engineering professionals working with technical equipment"
             />
             <div className="about-image-accent"></div>
@@ -93,16 +105,22 @@ function About() {
             </h2>
 
             <p>
-              D' PRIME Global Ltd is an engineering and procurement-focused
-              company involved in the supply, installation, maintenance,
-              importation and distribution of a wide range of professional
-              equipment and technical products.
+             <b>D'PRIME GLOBAL LTD</b> is a Nigerian company engaged in the supply and distribution of  
+             <b> engineering equipment, laboratory equipment, medical and hospital equipment, safety equipment, 
+             and related industrial products.</b>
             </p>
 
+
             <p>
-              Our areas of focus include engineering equipment, laboratory
-              equipment, hospital and medical equipment, industrial machinery,
-              safety equipment and information technology products.
+              We are committed to providing quality products and dependable supply solutions to 
+              government institutions, healthcare facilities, laboratories, industries, educational 
+              institutions, engineering organizations and corporate clients.
+
+            </p>
+            <p>
+              Our business is founded on the principles of quality, integrity, reliability, 
+              professionalism and customer satisfaction. We understand that our clients require 
+              not only quality products but also timely delivery, competitive pricing and responsive service.
             </p>
 
             <p>
@@ -110,6 +128,9 @@ function About() {
               with dependable sourcing, practical solutions and services
               aligned with their operational requirements.
             </p>
+
+            <p>At D'PRIME GLOBAL LTD, we therefore seek to build long-term relationships with our clients by 
+              consistently providing products and services that meet their specifications and operational requirements</p>
 
             <Link to="/services" className="about-link">
               Explore Our Services <ArrowRight size={18} />
@@ -139,10 +160,8 @@ function About() {
               <span>OUR MISSION</span>
               <h3>Providing Dependable Solutions</h3>
               <p>
-                To provide access to quality engineering, laboratory,
-                medical and industrial equipment, supported by dependable
-                procurement and technical services that address our clients'
-                needs.
+                To deliver quality products, reliable supply services and customer-focused solutions
+                that contribute to the efficiency, safety and productivity of the organizations we serve.
               </p>
             </article>
 
@@ -153,9 +172,8 @@ function About() {
               <span>OUR VISION</span>
               <h3>Building Lasting Partnerships</h3>
               <p>
-                To be a trusted provider of equipment and technical solutions,
-                recognised for reliability, professionalism and our
-                contribution to the organisations and industries we serve.
+                To become a trusted and leading provider of quality equipment
+                and supply solutions in Nigeria and beyond.
               </p>
             </article>
 
@@ -192,7 +210,7 @@ function About() {
         <div className="about-container about-why-grid">
 
           <div className="about-why-content">
-            <span className="about-label">WHY WORK WITH US</span>
+            <span className="about-label">WHY CHOOSE US?</span>
             <h2>
               Solutions That Support
               <span> Your Operations</span>
