@@ -58,7 +58,7 @@ const services = [
       "Technical assistance during deployment",
     ],
     image:
-      "https://images.unsplash.com/photo-1581092921461-eab62e97a780?auto=format&fit=crop&w=1000&q=85",
+      "/products/prod.jpg",
   },
   {
     number: "04",

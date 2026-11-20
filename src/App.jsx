@@ -9,7 +9,7 @@ import ProductDetails from "./pages/ProductDetails";
 import Industries from "./pages/Industries";
 import Contact from "./pages/Contact";
 import RequestQuote from "./pages/RequestQuote";
-
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
@@ -27,6 +27,7 @@ function App() {
         <Route path="/industries" element={<Industries />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/request-quote" element={<RequestQuote />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       </Routes>
 
       <Footer />

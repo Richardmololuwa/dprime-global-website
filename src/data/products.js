@@ -6,8 +6,7 @@ const products = [
     category: "Laboratory Equipment",
     description:
       "Precision optical microscope designed for laboratory observation, research and educational applications.",
-    image:
-      "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=900&q=85",
+    image: "/products/labM.jpg",
     features: [
       "Optical viewing system",
       "Laboratory applications",
@@ -20,22 +19,21 @@ const products = [
     category: "Laboratory Equipment",
     description:
       "Laboratory equipment designed to separate sample components through controlled centrifugal rotation.",
-    image:
-      "https://i.pinimg.com/736x/c3/f8/9e/c3f89ed04c798c7ac5000e2b40fc6694.jpg",
+    image: "/products/labC.jpg",
     features: [
       "Sample separation",
       "Laboratory applications",
       "Multiple research uses",
     ],
   },
+
   {
     id: "patient-monitor",
     name: "Patient Monitoring System",
     category: "Medical Equipment",
     description:
       "Medical monitoring equipment intended for observing and displaying patient vital signs.",
-    image:
-      "https://i.pinimg.com/736x/b6/96/87/b69687e15d128df502eadc8171efb82b.jpg",
+    image: "/products/patientmonitor.jpg",
     features: [
       "Vital signs monitoring",
       "Clinical applications",
@@ -48,8 +46,8 @@ const products = [
     category: "Medical Equipment",
     description:
       "Hospital furniture designed to support patient care and clinical ward environments.",
-    image:
-      "https://i.pinimg.com/736x/13/80/b3/1380b3fda9106c7e323bef5d59940ecb.jpg",
+    image: "/products/hospitalbed.jpg",
+    
     features: [
       "Patient care applications",
       "Hospital ward use",

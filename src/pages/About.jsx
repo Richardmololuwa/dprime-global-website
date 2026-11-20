@@ -1,5 +1,7 @@
-
+import aboutpic from "../assets/images/DPrime Pictures/about1.jpg";
+import aboutpic2 from "../assets/images/DPrime Pictures/about2.jpg";
 import "../styles/about.css";
+import aboutb from "../assets/images/DPrime Pictures/aboutback.jpg";
 import { Link } from "react-router-dom";
 import {
   ArrowRight,
@@ -90,7 +92,7 @@ function About() {
 
           <div className="about-overview-image">
             <img
-              src="https://i.pinimg.com/1200x/88/c8/c3/88c8c326acfdb9e5e4861dafb68f4622.jpg"
+              src={aboutpic}
               alt="Engineering professionals working with technical equipment"
             />
             <div className="about-image-accent"></div>
@@ -235,7 +237,7 @@ function About() {
 
           <div className="about-why-image">
             <img
-              src="https://images.unsplash.com/photo-1581092921461-eab62e97a780?auto=format&fit=crop&w=1000&q=85"
+              src={aboutpic2}
               alt="Engineering technician inspecting industrial machinery"
             />
           </div>

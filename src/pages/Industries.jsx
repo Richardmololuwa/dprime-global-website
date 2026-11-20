@@ -33,7 +33,7 @@ const industries = [
     title: "Laboratories & Research",
     icon: FlaskConical,
     image:
-      "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=1000&q=85",
+      "/products/prod.jpg",
     description:
       "Providing laboratory equipment and technical solutions for research centres, diagnostic laboratories and scientific institutions.",
     services: [
@@ -209,12 +209,12 @@ function Industries() {
 
       {/* Our Approach */}
       <section className="industry-approach">
-        <div className="industry-approach-image">
+        {/* <div className="industry-approach-image">
           <img
             src="https://images.unsplash.com/photo-1581092921461-eab62e97a780?auto=format&fit=crop&w=1000&q=85"
             alt="Technical professionals working with industrial equipment"
           />
-        </div>
+        </div> */}
 
         <div className="industry-approach-content">
           <span>OUR APPROACH</span>

@@ -13,7 +13,7 @@ import {
   GraduationCap,
   CheckCircle2,
 } from "lucide-react";
-
+import home from "../assets/images/DPrime Pictures/home.jpg";
 const services = [
   {
     icon: <Truck />,
@@ -81,7 +81,7 @@ function Home() {
 
         <div className="home-container home-hero-content">
           <span className="home-eyebrow">
-            QUALITY SUPPLY • RALIABLE DELIVERY • TRUSTED PARTNERSHIP
+            QUALITY SUPPLY • RELIABLE DELIVERY • TRUSTED PARTNERSHIP
           </span>
 
           <h1>
@@ -116,7 +116,7 @@ function Home() {
         <div className="home-container home-intro-grid">
           <div className="home-intro-image">
             <img
-              src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1000&q=85"
+              src={home}
               alt="Technical professional working with engineering equipment"
             />
             <div className="home-image-label">
