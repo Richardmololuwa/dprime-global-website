@@ -45,7 +45,7 @@ const categories = [
   {
     title: "Laboratory Equipment",
     image:
-      "https://images.unsplash.com/photo-1582719471384-894fbb16e074?auto=format&fit=crop&w=800&q=85",
+      "products/about1.jpg",
   },
   {
     title: "Medical & Hospital Equipment",
