@@ -12,6 +12,7 @@ function Navbar() {
     { name: "About Us", path: "/about" },
     { name: "Services", path: "/services" },
     { name: "Products", path: "/products" },
+    { name: "Gallery",  path: "/gallery"},
     { name: "Industries", path: "/industries" },
     { name: "Contact", path: "/contact" },
   ];
