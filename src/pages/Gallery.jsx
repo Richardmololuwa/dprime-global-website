@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { X, Image as ImageIcon } from "lucide-react";
-import galleryItems from "../data/gallery";
-import "../styles/gallery.css";
+import galleryItems from "../data/gallery.js";
+import "../styles/Gallery.css";
 
 function Gallery() {
   const [activeCategory, setActiveCategory] = useState("All");
